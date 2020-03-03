@@ -5,7 +5,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 CORS(app)
-@app.route("/topcomments", methods=['POST'])
+@app.route("/topcomments")
 def topcomments():
     '''Dummy Response'''
 
